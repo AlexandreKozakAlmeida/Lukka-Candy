@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 :root {
@@ -53,6 +54,18 @@ body {
   width: min(50rem, 100%);
   margin-inline: auto;
   padding-inline: 2.4rem;
+}
+
+.logo {
+display: flex;
+align-items: center;
+
+}
+
+.logo-h1 {
+  color: rgb(245, 56, 134);
+  font-size: 2rem;
+  
 }
 
 #lukka-logo {
@@ -184,7 +197,7 @@ nav {
   top: 0;
   width: 100vw;
 
-  z-index: 100;
+  z-index: 140;
 }
 
 nav .wrapper {
@@ -236,7 +249,7 @@ body.menu-expanded .close-menu {
 }
 
 body.menu-expanded .menu {
-  top: 0;
+  top: -14rem;
   left: 0;
   background: var(--primary-color);
 
@@ -246,7 +259,8 @@ body.menu-expanded .menu {
   padding-top: var(--nav-height);
 
   transition: transform 300ms;
-  transform: translateY(0);
+  transform: translateY(0%);
+  
 }
 
 .menu ul:nth-child(1) {
@@ -262,8 +276,9 @@ body.menu-expanded .menu {
 }
 
 .menu ul li a {
-  color: white;
+  color: rgb(248, 248, 248);
   text-decoration: none;
+  margin-top: 10rem;
 }
 
 .menu .button {
@@ -306,6 +321,7 @@ body.menu-expanded button path {
 }
 
 /*=== #HOME =================================*/
+
 #home {
   padding-block: 0;
   padding-top: calc(4.1rem + var(--nav-height));
@@ -317,6 +333,8 @@ body.menu-expanded button path {
   margin-inline: auto;
 }
 
+
+
 #home p {
   font-size: 1.8rem;
   line-height: 150%;
@@ -327,10 +345,12 @@ body.menu-expanded button path {
 }
 
 #home img {
-  width: 26.4rem;
+  width: 49rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
+  margin-left: 0;
+  margin-top: 7rem;
 }
 
 #home .stats {
@@ -378,11 +398,13 @@ body.menu-expanded button path {
   padding: 2.4rem;
   text-align: left;
 
-  background: white;
+ 
 
   border: 1px solid var(--brand-light);
   border-radius: 0.6rem;
 }
+
+
 
 #services .card h3 {
   margin-block: 1.6rem;
@@ -578,11 +600,7 @@ footer .social-links {
     opacity: 0.6;
   }
 
-  nav#navigation.scroll .menu a.button {
-    border-color: white;
-    color: white;
-  }
-
+  
   nav#navigation .menu li a {
     transition: opacity 0.4s;
   }
@@ -676,9 +694,25 @@ footer .social-links {
   #home .button {
     margin: 0;
   }
+  #lukka-candy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
 
-  #home img {
+.lukka-candy-text h2 {
+  text-align: center;
+}
+
+.lukka-candy-text {
+  margin-top: 6rem;
+}
+
+  img.candy-shop-img {
     width: 42rem;
+    margin-bottom: 2rem;
   }
 
   /*=== SERVICES =================================*/
@@ -697,6 +731,7 @@ footer .social-links {
     width: 30%;
     flex-grow: 1;
   }
+
 
   /*=== ABOUT =================================*/
   #about .wrapper {
