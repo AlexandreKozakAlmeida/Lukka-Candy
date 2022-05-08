@@ -96,7 +96,7 @@ section {
 }
 
 section header h4 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 700;
   line-height: 150%;
   letter-spacing: 0.08rem;
@@ -110,6 +110,7 @@ section header h4 {
 section header h2 {
   font-size: 3rem;
   line-height: 3.9rem;
+  margin-bottom: 1rem;
 
   color: var(--headline);
 }
@@ -119,7 +120,7 @@ section header h1 {
   color: var(--headline);
   line-height: 130%;
 
-  margin-bottom: 2.4rem;
+  margin-bottom: 3rem;
 }
 
 section .content p {
@@ -130,31 +131,6 @@ section .content p {
   color: var(--paragraph);
 }
 
-.button {
-  background: var(--primary-color);
-
-  border: none;
-  border-radius: 4rem;
-
-  margin-bottom: 6rem;
-
-  padding: 1.6rem 3.2rem;
-  width: fit-content;
-
-  color: white;
-  font-size: 1.4rem;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
-  text-decoration: none;
-
-  transition: background 200ms;
-}
 
 .button:hover {
   background-color: var(--brand-dark);
@@ -347,7 +323,6 @@ button#more-about-us-button {
   margin-bottom: 6rem;
   margin-top: 0;
   padding: 1.6rem 3.2rem;
-  width: fit-content;
   color: rgb(245, 237, 237);
   font-size: 1.4rem;
   font-weight: 700;
@@ -359,7 +334,8 @@ button#more-about-us-button {
   text-decoration: none;
   transition: background 200ms;
   cursor: pointer;
-  margin-left: 13.3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*=== SERVICES =================================*/
 #services header h2 {
