@@ -66,9 +66,9 @@ align-items: center;
 
 .logo-h1 {
   color: rgb(245, 56, 134);
-  font-size: 2rem;
-  
-}
+    font-size: 2rem;
+    font-family: 'Koulen', cursive;
+} 
 
 #lukka-logo {
   width: 5rem;
@@ -438,16 +438,11 @@ footer {
 footer .logo {
   display: inline-block;
   margin-bottom: 2.4rem;
+  margin-left: 1rem;
 }
 
-footer .logo svg {
-  width: 23.6rem;
-  height: 3.1rem;
-}
 
-footer .logo path {
-  fill: white;
-}
+
 
 footer p {
   color: var(--brand-beige);
@@ -459,6 +454,21 @@ footer p {
 footer .social-links {
   justify-content: flex-start;
 }
+
+footer .wrapper .col-a #logo-h1-img .logo h1 {
+  color: rgb(245, 56, 134);
+  margin-bottom:-8.7rem;
+  font-size: 2.7rem;
+  font-family: 'Koulen', cursive;
+  margin-left: -2.2rem;
+}
+
+ footer .wrapper .col-a #logo-h1-img .logo img{
+ width: 10rem;
+ margin-left: 4rem;
+
+}
+
 
 /* BACK TO TOP */
 #backToTopButton {
@@ -581,8 +591,7 @@ footer .social-links {
     opacity: 0.6;
   }
 
-  
-  nav#navigation .menu li a {
+    nav#navigation .menu li a {
     transition: opacity 0.4s;
   }
 
@@ -690,9 +699,7 @@ footer .social-links {
     margin-right: 3rem;
 }
 
-
-
-   body #navigation .wrapper .logo {
+body #navigation .wrapper .logo {
     display: flex;
     align-items: center;
   }
@@ -702,8 +709,6 @@ footer .social-links {
     margin-top: 1rem;
     font-family: 'Koulen', cursive;
   }
-
-  
 
   /*=== SERVICES =================================*/
   #services h2 {
@@ -808,8 +813,6 @@ footer .social-links {
     align-items: center;
     ;
   }
-}
-  
   footer .wrapper .col-a #logo-h1-img .logo h1 {
     color: rgb(245, 56, 134);
     margin-bottom:-8.7rem;
@@ -823,3 +826,7 @@ footer .social-links {
    margin-left: 4rem;
 
   }
+
+}
+  
+ 
