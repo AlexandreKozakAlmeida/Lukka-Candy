@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+html,
+body {
+  overflow-x: hiden;
+}
+
 :root {
   --hue: 1;
   --primary-color: hsl(var(--hue), 100%, 26%);
@@ -135,9 +140,9 @@ a.button {
     border: none;
     border-radius: 4rem;
     margin-bottom: 6rem;
-    margin-top: 0;
+    margin-top: 2rem;
     padding: 1.6rem 3.2rem;
-    color: rgb(245, 237, 237);
+    color: rgb(250, 243, 243);
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -149,7 +154,6 @@ a.button {
     transition: background 200ms;
     cursor: pointer;
     width: 25rem;
-   
 }
 
 
@@ -314,6 +318,12 @@ body.menu-expanded button path {
   padding-top: calc(4.1rem + var(--nav-height));
 }
 
+#home .wrapper .col-a header h4,
+#home .wrapper .col-a header h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
 #home .button {
   margin-inline: auto;
 }
@@ -440,8 +450,6 @@ footer .logo {
   margin-bottom: 2.4rem;
   margin-left: 1rem;
 }
-
-
 
 
 footer p {
@@ -754,6 +762,10 @@ body #navigation .wrapper .logo {
     margin-left: 13.3rem;
 }
 
+button#more-about-us-button:hover {
+  background: rgb(105, 8, 2);
+}
+
 /*=== ABOUT =================================*/
 #about {
   text-align: center;
@@ -780,9 +792,29 @@ body #navigation .wrapper .logo {
     margin-left: 9rem;
   }
 
-  #contact a.button {
-    margin-left: 7.5rem;
-  }
+  a.button {
+    background: var(--primary-color);
+      border: none;
+      border-radius: 4rem;
+      margin-top: 22rem;
+      margin-bottom: 6rem;
+      margin-left: 7.5rem;
+      padding: 1.6rem 3.2rem;
+      color: rgb(250, 243, 243);
+      font-size: 1.4rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.6rem;
+      text-decoration: none;
+      transition: background 200ms;
+      cursor: pointer;
+      width: 25rem;
+    }
+
+
   
   /*=== FOOTER =================================*/
   footer {
