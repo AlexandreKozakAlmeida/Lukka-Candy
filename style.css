@@ -344,11 +344,11 @@ button#more-about-us-button {
   background: var(--primary-color);
   border: none;
   border-radius: 4rem;
-  margin-left: 2.2rem;
   margin-bottom: 6rem;
+  margin-top: 0;
   padding: 1.6rem 3.2rem;
   width: fit-content;
-  color: white;
+  color: rgb(245, 237, 237);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -358,6 +358,8 @@ button#more-about-us-button {
   gap: 1.6rem;
   text-decoration: none;
   transition: background 200ms;
+  cursor: pointer;
+  margin-left: 13.3rem;
 }
 /*=== SERVICES =================================*/
 #services header h2 {
@@ -722,7 +724,6 @@ footer .social-links {
   }
 
   button#more-about-us-button {
-    border: 1px solid green;
     background: var(--primary-color);
     border: none;
     border-radius: 4rem;
@@ -730,7 +731,7 @@ footer .social-links {
     margin-top: 0;
     padding: 1.6rem 3.2rem;
     width: fit-content;
-    color: rgb(255, 253, 253);
+    color: rgb(245, 237, 237);
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
