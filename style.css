@@ -75,7 +75,7 @@ align-items: center;
     font-family: 'Koulen', cursive;
 } 
 
-#lukka-logo {
+#sweet-logo {
   width: 5rem;
 }
 
@@ -113,7 +113,7 @@ section header h4 {
 }
 
 
-#lukka-candy .lukka-candy-text p {
+#sweet-candy .sweet-candy-text p {
    margin-top: 2rem;
 
   color: var(--headline);
@@ -689,7 +689,7 @@ footer .wrapper .col-a #logo-h1-img .logo h1 {
     margin: 0;
   }
 
-  #lukka-candy {
+  #sweet-candy {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -697,12 +697,12 @@ footer .wrapper .col-a #logo-h1-img .logo h1 {
     justify-content: center;
   }
 
-#lukka-candy-text h2 {
+#sweet-candy-text h2 {
  
   margin-bottom: 18rem;
 }
 
-.lukka-candy-text {
+.sweet-candy-text {
     margin-top: 18rem;
     margin-right: 3rem;
 }
