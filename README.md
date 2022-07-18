@@ -1,5 +1,7 @@
 # Sweet-Candy
 
+Acesse o resultado do projeto: https://alexandrekozakalmeida.github.io/Sweet-Candy/
+
 Esse projeto foi o resultado do evento NLW promovido pela Rocketseat.
 Essa é a Sweet-Candy, uma página baseada na estrutura projeto DoctorCare.
 Nesse projeto foram colocados a prova todo o conhecimento que recebi na NLW e também o conhecimento que eu já havia antes,
